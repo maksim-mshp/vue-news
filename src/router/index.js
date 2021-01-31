@@ -10,6 +10,11 @@ const routes = [
 		component: () => import("../views/RU.vue"),
 	},
 	{
+		path: "/",
+		name: "redirect",
+		component: () => import("../components/Redirect.vue"),
+	},
+	{
 		path: "/usa",
 		name: "USA",
 		component: () => import("../views/USA.vue"),
